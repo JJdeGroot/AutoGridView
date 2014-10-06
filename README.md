@@ -1,7 +1,7 @@
 AutoGridView
 ============
 
-Solution to Android GridView overlap
+The solution of Android GridView overlap.
 Explanation: http://obduro.nl/blog/solution-to-android-gridview-overlap/
 
 
