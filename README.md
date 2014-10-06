@@ -10,12 +10,14 @@ Usage
 It is really simple, just define the AutoGridView in XML like you would with a normal GridView. Make sure you set the “android:numColumns” value to a valid integer resource, and you are good to go.
 
 ```xml
-android:id="@+id/activity_version_GridView"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-android:listSelector="@drawable/selector"
-android:numColumns="@integer/pair_cols"
-android:stretchMode="columnWidth">
+<nl.obduro.views.AutoGridView
+        android:id="@+id/activity_version_GridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:listSelector="@drawable/selector"
+        android:numColumns="@integer/pair_cols"
+        android:stretchMode="columnWidth">
+</nl.obduro.views.AutoGridView>
 ```
 
 Attaching an adapter or listener is exactly the same as a GridView as well.
